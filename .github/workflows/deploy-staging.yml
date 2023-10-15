@@ -6,12 +6,12 @@ on:
 
 env:
   IMAGE_REGISTRY_URL: ghcr.io
-  ###############################################
-  ### Replace <username> with GitHub username ###
-  ###############################################
+  ################################################
+  ### Replace <username> with GitHub username ####
+  ################################################
   DOCKER_IMAGE_NAME: yaaamaada-azure-ttt
   AZURE_WEBAPP_NAME: yaaamaada-ttt-app
-  ###############################################
+  ################################################
 
 jobs:
   build:
